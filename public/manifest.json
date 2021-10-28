@@ -1,0 +1,19 @@
+{
+    "name": "__MSG_APP_NAME__",
+    "description": "__MSG_APP_DESCRIPTION__",
+    "default_locale": "ko",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "icons": {
+      "48": "icons/icon48.png",
+      "192": "icons/icon192.png"
+    },
+    "permissions": [
+    ],
+    "app": {
+      "background": {
+        "page": "background.html",
+        "persistent": false
+      }
+    }
+  }
